@@ -21,10 +21,10 @@ def countword() :
         rev=revword(i).casefold().strip()
         if rev==word:
             counter=counter+1
-    return int(counter)
+    return (counter)
 
-countword()
 
+print(countword())
    
     
     
