@@ -1,4 +1,4 @@
-handle = open('text.txt')
+handle = open('text.txt','r')
 
 def revword (word):
     str_1=" "
@@ -23,13 +23,7 @@ def countword() :
             counter=counter+1
     return int(counter)
 
-
-def fixtext () :
-   num=countword()
-   return num
-
-fixtext()
-
+countword()
 
    
     
